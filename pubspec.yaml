@@ -1,0 +1,31 @@
+name: attendance_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  supabase_flutter: ^2.5.0
+  flutter_localizations:
+    sdk: flutter
+  
+  file_picker: ^10.3.10
+  syncfusion_flutter_pdfviewer: ^33.1.45
+  url_launcher: ^6.3.2
+  cupertino_icons: ^1.0.6
+
+dependency_overrides:
+  intl: 0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
